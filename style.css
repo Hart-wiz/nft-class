@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 50px;
+}
+
+main {
+  background-color: hsl(216, 50%, 16%);
+  width: 350px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  color: hsla(210, 12%, 97%, 0.514);
+  border-radius: 20px;
+}
+
+.equilibrium {
+  position: relative;
+  width: 300px;
+}
+
+.equilibrium img {
+  width: 300px;
+  border-radius: 9px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.description h1 {
+  color: white;
+  cursor: pointer;
+  margin-top: 19px;
+}
+.description h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+.description p {
+  font-size: 19px;
+}
+.price-duration {
+  display: flex;
+  justify-content: space-between;
+}
+.price-duration div {
+  display: flex;
+  gap: 9px;
+}
+.price {
+  color: hsl(178, 100%, 50%);
+}
+hr {
+  background-color: hsl(215, 32%, 27%);
+  height: 0.4px;
+  border: none;
+}
+.author {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.author img {
+  width: 35px;
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 0.7px;
+  border-color: white;
+}
+.author b {
+  color: rgba(255, 255, 255, 0.911);
+  cursor: pointer;
+}
+.author b:hover {
+  color: hsl(178, 100%, 50%);
+}
+.div-icon:hover {
+  background-color: rgba(255, 255, 255, 0.144);
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 9px;
+  opacity: 100;
+}
+.div-icon {
+  background-color: rgba(255, 255, 255, 0.144);
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 9px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.icon {
+  scale: 0.3;
+}
